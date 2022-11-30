@@ -1,0 +1,61 @@
+body{
+ 
+    height: auto;
+    margin: 0%;
+
+}
+h1{
+    background-color: red;
+    text-align: right;
+    padding: 20px;
+    margin: 0%;
+}
+
+.menu{
+     margin: 0%;
+     background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.menu li{
+display: inline-block;
+padding: 10px;
+
+}
+.menu li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.menu li:hover{
+    background-color: rgba(228, 207, 207, 0.3) ;
+}
+
+.menu li:nth-child(2):hover #menu1 , .menu li:nth-child(3):hover #menu2{
+ display: block;
+}
+
+
+
+#menu1 , #menu2 {
+
+    position: absolute;
+    width: auto;
+    max-width: 150px;
+    display: none;
+    background-color: whitesmoke;
+    padding: 0px;
+
+}
+
+#menu1 li , #menu2 li {
+    
+    display: block;
+}
+
+
+#menu1 li:hover , #menu2 li:hover {
+    
+   background-color: red;
+} 
